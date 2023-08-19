@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    --dark-blue-color: hsl(240, 100%, 5%);
+    --Dark-grayish-blue-color: hsl(236, 13%, 42%);
+    --grayish-blue-color: hsl(233, 8%, 79%);
+    --Off-white-color: hsl(36, 100%, 99%);
+
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px 150px 100px 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img-principal {
+    width: 100%;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-img {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    overflow: hidden;
+    padding: 20px;
+}
+
+button {
+    background: var(--Soft-red);
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 2px;
+    color: var(--Off-white-color);
+}
+
+button:hover {
+    cursor: pointer;
+}
+.notices {
+    background: var(--Soft-red);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    background: var(--dark-blue-color);
+    padding: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--Soft-orange);
+    max-width: 100%;
+    max-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.notice-text {
+    color: var(--Off-white-color);
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.one, .two {
+    border-bottom: solid 1px var(--grayish-blue-color);
+}
+
+.text-color-notices {
+    color: var(--grayish-blue-color);
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.topic {
+    display: flex;
+}
+
+.topic-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.topic-text h2 {
+    color: var(--grayish-blue-color);
+}
+
+.topic-text h5 {
+    margin-top: 20px;
+}
+
+.topic-text p {
+    color: var(--grayish-blue-color);
+}
+
+.imgs-retro {
+    height: 150px;
+}

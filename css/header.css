@@ -1,0 +1,46 @@
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-menu {
+    height: 40px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--Dark-grayish-blue-color);
+}
+
+#responsive-menu {
+    display: none;
+}
+
+#responsive-menu:hover {
+    cursor: pointer;
+}
+
+#responsive-menu-closed {
+    display: none;
+}
+
+#responsive-menu-closed:hover {
+    cursor: pointer;
+}
